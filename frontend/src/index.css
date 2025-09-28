@@ -1,0 +1,13 @@
+@import "tailwindcss";
+.perspective {
+  perspective: 1000px;
+}
+.transform-style {
+  transform-style: preserve-3d;
+}
+.hover\:rotate-y-180:hover {
+  transform: rotateY(180deg);
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
